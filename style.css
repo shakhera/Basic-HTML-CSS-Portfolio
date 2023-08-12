@@ -1,10 +1,12 @@
 body {
     font-family: 'Poppins', sans-serif;
-    background-image: url(img/my-bg.png);
+    /* background-image: url(img/my-bg.png);
     background-repeat: no-repeat;
-    /* background-position: right; */
-    background-size: 40%;
     background-position: right;
+    background-size: 40%;
+    background-position: right; */
+    margin: 0px;
+
 }
 
 .name-color {
@@ -14,7 +16,7 @@ body {
 
 
 
-#linked-button {
+.linked-button {
     background-image: linear-gradient(orange, tomato);
     color: white;
     padding: 10px 20px 10px 20px;
@@ -26,24 +28,42 @@ body {
 
 }
 
-/* .header {
-    text-align: center;
-} */
-
 .half-width {
     width: 50%;
     padding-left: 5px;
 }
 
 
-.half-width img {
-    width: 70%;
+.img {
+    width: 500px;
+    height: 500px;
     border-radius: 50%;
-    margin-left: 100px;
-    padding-left: 100px;
+    margin-left: 180px;
+    margin-bottom: 25px;
+    /* padding-left: 100px; */
+}
+
+.imgg {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    margin-right: 300px;
 }
 
 section {
     display: flex;
 
+}
+
+.top-banner {
+    background-image: url(img/top-banner.png);
+    background-repeat: no-repeat;
+
+
+}
+
+.dream-big {
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
